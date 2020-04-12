@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import * as actionTypes from './actionTypes';
 
-import { API_KEY } from '../../authUtility';
+import { API_KEY } from '../../shared/authUtility';
 
 export const authStart = () => {
     return {
